@@ -56,7 +56,7 @@ void setup() {
   // FONT/TYPEFACE ---------------------------------------------------
  
   /* here we instantiate my_font object by calling loadFont method. Processing makes this method available to us directly without the need to reference it though any object. */
-  my_font=loadFont("DINPro-Light-48.vlw");
+  my_font=loadFont("DINPro-Light.otf");
   textAlign(CENTER);
   textFont(my_font, 60);
  
@@ -87,7 +87,7 @@ void setup() {
   //mClient = new NetworkClient(this, "edc.local", "client");
   //// SETUP SONG LIST
   //songTitles = new String[5]; // Here we instantiate an array of String objects and say that it will hold up to 5 elements.
-  //songTitles[0] = "Prokofiev-Montagues And Capulets.mp3"; // here we assign value to the first element (we begin with 0) of the above array
+  //songTitles[0] = "glue.mp3"; // here we assign value to the first element (we begin with 0) of the above array
   //setupSong(songTitles[currentSongKey]); // Here we call a method we ourselves wrote down below
 
 
